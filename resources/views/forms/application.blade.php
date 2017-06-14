@@ -341,9 +341,126 @@
 		</div>
 
 		<div class="panel panel-default">
-			<div class="panel-heading"><h4>Employment Record</h4></div>
-			<div class="panel-body"> </div>
+			<div class="panel-heading">
+				<h4>Employment Record</h4>
+			</div>
+			<div class="panel-body"> 
+		        <!-- <div class="col-md-4">
+		        	<label class="control-label">Employer's Name</label>
+		            <input id="date_available" class="form-control" name="date_available" value="{{ old('date_available') }}" type="date">
+		            <span class="help-block"></span>
+		        </div>
+
+		        <div class="col-md-4">
+		        	<label class="control-label">Employer's Address</label>
+		            <input id="date_available" class="form-control" name="date_available" value="{{ old('date_available') }}" type="date">
+		            <span class="help-block"></span>
+		        </div>
+
+		        <div class="col-md-4">
+		        	<label class="control-label">Employer's Tel. Number</label>
+		            <input id="date_available" class="form-control" name="date_available" value="{{ old('date_available') }}" type="date">
+		            <span class="help-block"></span>
+		        </div>
+
+		        <div class="col-md-12">
+			        <div class="col-md-4">
+			        	<label class="control-label">Immediate Supervisor's Name</label>
+			            <input id="date_available" class="form-control" name="date_available" value="{{ old('date_available') }}" type="date">
+			            <span class="help-block"></span>
+			        </div>
+
+			        <div class="col-md-4">
+			        	<label class="control-label">Immediate Supervisor's Position</label>
+			            <input id="date_available" class="form-control" name="date_available" value="{{ old('date_available') }}" type="date">
+			            <span class="help-block"></span>
+			        </div>
+
+			        <div class="col-md-4"></div>
+			    </div>
+		        
+
+		        <div class="col-md-4">
+		        	<label class="control-label">Last Salary</label>
+		            <input id="date_available" class="form-control" name="date_available" value="{{ old('date_available') }}" type="number">
+		            <span class="help-block"></span>
+		        </div>
+
+		         <div class="col-md-4">
+		        	<label class="control-label">Position and Nature of Work</label>
+		            <input id="date_available" class="form-control" name="date_available" value="{{ old('date_available') }}" type="text">
+		            <span class="help-block"></span>
+		        </div>
+
+		         <div class="col-md-4">
+		        	
+		        	<div class="col-md-6">
+		        	<label class="control-label">Years Employed</label>
+		            <input id="date_available" class="form-control" name="date_available" value="{{ old('date_available') }}" placeholder="from" type="text">
+		            </div>
+		            -
+		            <label class="control-label">&nbsp</label>
+		            <div class="col-md-6">
+		            <input id="date_available" class="form-control" name="date_available" value="{{ old('date_available') }}" placeholder="to" type="text">
+		            </div>
+		        </div> -->
+
+		        <!-- <div class='col-md-12'> <h4> Emplo </h4> </div> -->
+		    	<div id ="employer">
+		    		<table class="table table-bordered responsive" style="width: 100%">
+					    <thead>
+							<tr>
+								<th class="col-md-3"> Employer's Name, Address and Tel. Num. </th>
+								<th class="col-md-3"> Name and Position of Immediate Supervisor </th>
+								<th class="col-md-2"> Position and Nature of Work</th>
+								<th class="col-md-2"> Last Salary </th>
+								<th class="col-md-2 colspan="2> Years Employed </th>								
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><input type="text"/ style="border: none; width: 100%;"></td>
+								<td><input type="text"/ style="border: none; width: 100%;"></td>
+								<td><input type="text"/ style="border: none; width: 100%;"></td>
+								<td><input type="text"/ style="border: none; width: 100%;"></td>
+								<td><input type="text"/ style="border: none; width: 100%;"></td>
+								<td><input type="text"/ style="border: none; width: 100%;"></td>
+								<!-- <td><input type="text"/ style="border: none; width: 100%;"></td> -->
+							</tr>
+						</tbody>
+					</table>
+		    	</div>
+
+		        <div class='col-md-12'> <h4> Skills </h4> </div>
+		    	<div id ="skills">
+		    		<table class="table table-bordered responsive" style="width: 100%">
+					    <thead>
+							<tr>
+								<th class="col-md-2"> Government Exams Passed </th>
+								<th class="col-md-2"> Office Machines You Can Operate </th>
+								<th class="col-md-2"> Office Applications and Programs </th>
+								<th class="col-md-2"> Languages </th>
+								<th class="col-md-2" colspan="2"> Proficiency </th>
+								<th class="col-md-2"> Other Special Skills </th>								
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td ><input type="text"/ style="border: none; width: 100%;"></td>
+								<td><input type="text"/ style="border: none; width: 100%;"></td>
+								<td><input type="text"/ style="border: none; width: 100%;"></td>
+								<td><input type="text"/ style="border: none; width: 100%;"></td>
+								<td><input type="text"/ style="border: none; width: 100%;"></td>
+								<td><input type="text"/ style="border: none; width: 100%;"></td>
+								<td><input type="text"/ style="border: none; width: 100%;"></td>
+							</tr>
+						</tbody>
+					</table>
+		    	</div>
+			</div>
 		</div>
+
+		<input class="btn btn-success pull-right" type="submit" value="Next Page"/>
 	</form>
 </div>
 

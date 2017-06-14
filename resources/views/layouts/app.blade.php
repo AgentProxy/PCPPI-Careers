@@ -25,6 +25,10 @@
         .navbar{
             margin-bottom: 0;
         }
+
+        body{
+            background-color:rgb(66, 244, 238);
+        }
     </style>
 
     <!-- Scripts -->
