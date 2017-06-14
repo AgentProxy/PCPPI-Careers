@@ -130,24 +130,25 @@
 			            <input id="date_available" class="form-control" name="date_available" value="{{ old('date_available') }}" type="date">
 			            <span class="help-block"></span>
 			        </div> 
-
+			        <br />
+			        <br />
 			    	<h3> For Experienced Applicants: </h3>
 
-			    	 <label class="col-md-3 control-label">If employed, please state the reason why you wish to leave your current employment</label>
-			        <div class="col-md-3">
-			            <input id="desired_salary" class="form-control" name="date_available" value="{{ old('date_available') }}" type="date">
+			    	 <label class="col-md-8 control-label">If employed, please state the reason why you wish to leave your current employment</label>
+			        <div class="col-md-4">
+			            <input id="reason_current" class="form-control" name="reason_current" value="{{ old('reason_current') }}" type="text">
 			            <span class="help-block"></span>
 			        </div> 
 
 			         <label class="col-md-3 control-label">If unemployed, please state the reason for leaving last position</label>
-			        <div class="col-md-3">
-			            <input id="desired_salary" class="form-control" name="date_available" value="{{ old('date_available') }}" type="date">
+			        <div class="col-md-8">
+			            <input id="reason_last" class="form-control" name="reason_last" value="{{ old('reason_last') }}" type="text">
 			            <span class="help-block"></span>
 			        </div> 
 
 			         <label class="col-md-3 control-label">Would you agree to transfer to other PCPPI locations in the Philippines, if required? </label>
-			        <div class="col-md-3">
-			            <input id="desired_salary" class="form-control" name="date_available" value="{{ old('date_available') }}" type="date">
+			        <div class="col-md-8">
+			            <input id="transfer" class="form-control" name="transfer" value="{{ old('transfer') }}" type="text">
 			            <span class="help-block"></span>
 			        </div> 
 				</fieldset>
