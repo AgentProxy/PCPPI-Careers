@@ -3,7 +3,7 @@
 	<form id="application" class="form-horizontal" role="form" method="POST">
 		<div class="panel panel-default">
 			<div class="panel-heading"> 
-				<h3> Personal Information </h1> 
+				<h3> Personal Information </h3> 
 			</div>
 
 			<div class="panel-body">			
@@ -182,162 +182,167 @@
 			</div>
 			<div class="panel-body">
 			<div class="col-md-12"><h4> Educational Attainment </h4></div>
-					<div id="high school">
-						<div class="col-md-12"><h5> High School </h5></div>
-						<label class="col-md-3 control-label">Name of School</label>
-				        <div class="col-md-3">
-				            <input id="hs_school_name" class="form-control" name="hs_school_name" value="{{ old('hs_school_name') }}" type="text">
-				            <span class="help-block"></span>
-				        </div>
+				<div id="high school">
+					<div class="col-md-12"><h5> High School </h5></div>
+					<label class="col-md-3 control-label">Name of School</label>
+			        <div class="col-md-3">
+			            <input id="hs_school_name" class="form-control" name="hs_school_name" value="{{ old('hs_school_name') }}" type="text">
+			            <span class="help-block"></span>
+			        </div>
 
-				        <label class="col-md-3 control-label">Address</label>
-				        <div class="col-md-3">
-				            <input id="hs_school_address" class="form-control" name="hs_school_address" value="{{ old('hs_school_address') }}" type="text">
-				            <span class="help-block"></span>
-				        </div>  
+			        <label class="col-md-3 control-label">Address</label>
+			        <div class="col-md-3">
+			            <input id="hs_school_address" class="form-control" name="hs_school_address" value="{{ old('hs_school_address') }}" type="text">
+			            <span class="help-block"></span>
+			        </div>  
 
-				        <label class="col-md-3 control-label">Contact Number</label>
-				        <div class="col-md-3">
-				            <input id="hs_school_contact" class="form-control" name="hs_school_contact" value="{{ old('hs_school_contact') }}" type="number">
-				            <span class="help-block"></span>
-				        </div>
+			        <label class="col-md-3 control-label">Contact Number</label>
+			        <div class="col-md-3">
+			            <input id="hs_school_contact" class="form-control" name="hs_school_contact" value="{{ old('hs_school_contact') }}" type="number">
+			            <span class="help-block"></span>
+			        </div>
 
-				        <label class="col-md-3 control-label">Years Attended</label>
-				        <div class="col-md-1">
-				            <input id="hs_school_year_from" class="form-control" name="hs_school_year_from" value="{{ old('hs_school_year_from') }}" type="text">
+			        <label class="col-md-3 control-label">Years Attended</label>
+			        <div class="col-md-1">
+			            <input id="hs_school_year_from" class="form-control" name="hs_school_year_from" value="{{ old('hs_school_year_from') }}" type="text">
 
-				            <span class="help-block"></span>
-				        </div> 
+			            <span class="help-block"></span>
+			        </div> 
 
-				        <div class="col-md-1">
-				        	
-				            <input id="hs_school_year_to" class="form-control" name="hs_school_year_to" value="{{ old('hs_school_year_to') }}" type="text">
-				            <span class="help-block"></span>
-				        </div> 
+			        <div class="col-md-1">
+			        	
+			            <input id="hs_school_year_to" class="form-control" name="hs_school_year_to" value="{{ old('hs_school_year_to') }}" type="text">
+			            <span class="help-block"></span>
+			        </div> 
 
-				        <label class="col-md-3 control-label">Course and Major Field of Study</label>
-				        <div class="col-md-3">
-				            <input id="hs_school_course" class="form-control" name="hs_school_course" value="{{ old('hs_school_course') }}" type="number">
-				            <span class="help-block"></span>
-				        </div>
+			        <label class="col-md-3 control-label">Course and Major Field of Study</label>
+			        <div class="col-md-3">
+			            <input id="hs_school_course" class="form-control" name="hs_school_course" value="{{ old('hs_school_course') }}" type="number">
+			            <span class="help-block"></span>
+			        </div>
 
-				        <label class="col-md-3 control-label">Honors or Awards Received</label>
-				        <div class="col-md-3">
-				            <input id="hs_school_honors" class="form-control" name="hs_school_honors" value="{{ old('hs_school_honors') }}" type="text">
-				            <span class="help-block"></span>
-				        </div>
+			        <label class="col-md-3 control-label">Honors or Awards Received</label>
+			        <div class="col-md-3">
+			            <input id="hs_school_honors" class="form-control" name="hs_school_honors" value="{{ old('hs_school_honors') }}" type="text">
+			            <span class="help-block"></span>
+			        </div>
 
-				        <label class="col-md-3 control-label">Year Graduated</label>
-				        <div class="col-md-3">
-				            <input id="hs_school_year_grad" class="form-control" name="hs_school_year_grad" value="{{ old('hs_school_year_grad') }}" type="text">
-				            <span class="help-block"></span>
-				        </div>
-				    </div>
+			        <label class="col-md-3 control-label">Year Graduated</label>
+			        <div class="col-md-3">
+			            <input id="hs_school_year_grad" class="form-control" name="hs_school_year_grad" value="{{ old('hs_school_year_grad') }}" type="text">
+			            <span class="help-block"></span>
+			        </div>
+			    </div>
 
-				     <div id="college">
-						<div class="col-md-12"><h5> College </h4></div>
-						<label class="col-md-3 control-label">Name of School</label>
-				        <div class="col-md-3">
-				            <input id="college_school_name" class="form-control" name="college_school_name" value="{{ old('college_school_name') }}" type="text">
-				            <span class="help-block"></span>
-				        </div>
+			    <div id="college">
+					<div class="col-md-12"><h5> College </h5></div>
+					<label class="col-md-3 control-label">Name of School</label>
+			        <div class="col-md-3">
+			            <input id="college_school_name" class="form-control" name="college_school_name" value="{{ old('college_school_name') }}" type="text">
+			            <span class="help-block"></span>
+			        </div>
 
-				        <label class="col-md-3 control-label">Address</label>
-				        <div class="col-md-3">
-				            <input id="college_school_address" class="form-control" name="college_school_address" value="{{ old('college_school_address') }}" type="text">
-				            <span class="help-block"></span>
-				        </div>  
+			        <label class="col-md-3 control-label">Address</label>
+			        <div class="col-md-3">
+			            <input id="college_school_address" class="form-control" name="college_school_address" value="{{ old('college_school_address') }}" type="text">
+			            <span class="help-block"></span>
+			        </div>  
 
-				        <label class="col-md-3 control-label">Contact Number</label>
-				        <div class="col-md-3">
-				            <input id="college_school_contact" class="form-control" name="college_school_contact" value="{{ old('college_school_contact') }}" type="number">
-				            <span class="help-block"></span>
-				        </div>
+			        <label class="col-md-3 control-label">Contact Number</label>
+			        <div class="col-md-3">
+			            <input id="college_school_contact" class="form-control" name="college_school_contact" value="{{ old('college_school_contact') }}" type="number">
+			            <span class="help-block"></span>
+			        </div>
 
-				        <label class="col-md-3 control-label">Years Attended</label>
-				        <div class="col-md-1">
-				            <input id="college_school_year_from" class="form-control" name="college_school_year_from" value="{{ old('college_school_year_from') }}" type="text">
+			        <label class="col-md-3 control-label">Years Attended</label>
+			        <div class="col-md-1">
+			            <input id="college_school_year_from" class="form-control" name="college_school_year_from" value="{{ old('college_school_year_from') }}" type="text">
 
-				            <span class="help-block"></span>
-				        </div> 
+			            <span class="help-block"></span>
+			        </div> 
 
-				        <div class="col-md-1">
-				        	
-				            <input id="college_school_year_to" class="form-control" name="college_school_year_to" value="{{ old('college_school_year_to') }}" type="text">
-				            <span class="help-block"></span>
-				        </div> 
+			        <div class="col-md-1">
+			        	
+			            <input id="college_school_year_to" class="form-control" name="college_school_year_to" value="{{ old('college_school_year_to') }}" type="text">
+			            <span class="help-block"></span>
+			        </div> 
 
-				        <label class="col-md-3 control-label">Course and Major Field of Study</label>
-				        <div class="col-md-3">
-				            <input id="college_school_course" class="form-control" name="college_school_course" value="{{ old('college_school_course') }}" type="number">
-				            <span class="help-block"></span>
-				        </div>
+			        <label class="col-md-3 control-label">Course and Major Field of Study</label>
+			        <div class="col-md-3">
+			            <input id="college_school_course" class="form-control" name="college_school_course" value="{{ old('college_school_course') }}" type="number">
+			            <span class="help-block"></span>
+			        </div>
 
-				        <label class="col-md-3 control-label">Honors or Awards Received</label>
-				        <div class="col-md-3">
-				            <input id="college_school_honors" class="form-control" name="college_school_honors" value="{{ old('college_school_honors') }}" type="text">
-				            <span class="help-block"></span>
-				        </div>
+			        <label class="col-md-3 control-label">Honors or Awards Received</label>
+			        <div class="col-md-3">
+			            <input id="college_school_honors" class="form-control" name="college_school_honors" value="{{ old('college_school_honors') }}" type="text">
+			            <span class="help-block"></span>
+			        </div>
 
-				        <label class="col-md-3 control-label">Year Graduated</label>
-				        <div class="col-md-3">
-				            <input id="college_school_year_grad" class="form-control" name="college_school_year_grad" value="{{ old('college_school_year_grad') }}" type="text">
-				            <span class="help-block"></span>
-				        </div>
-				    </div>
+			        <label class="col-md-3 control-label">Year Graduated</label>
+			        <div class="col-md-3">
+			            <input id="college_school_year_grad" class="form-control" name="college_school_year_grad" value="{{ old('college_school_year_grad') }}" type="text">
+			            <span class="help-block"></span>
+			        </div>  
+				 </div> 
 
-				    <div id="grad">
-						<div class="col-md-12"><h5> Graduate </h5></div>
-						<label class="col-md-3 control-label">Name of School</label>
-				        <div class="col-md-3">
-				            <input id="grad_school_name" class="form-control" name="grad_school_name" value="{{ old('grad_school_name') }}" type="text">
-				            <span class="help-block"></span>
-				        </div>
+			    <!-- <div id="grad">
+					<div class="col-md-12"><h5> Graduate </h5></div>
+					<label class="col-md-3 control-label">Name of School</label>
+			        <div class="col-md-3">
+			            <input id="grad_school_name" class="form-control" name="grad_school_name" value="{{ old('grad_school_name') }}" type="text">
+			            <span class="help-block"></span>
+			        </div>
 
-				        <label class="col-md-3 control-label">Address</label>
-				        <div class="col-md-3">
-				            <input id="grad_school_address" class="form-control" name="grad_school_address" value="{{ old('grad_school_address') }}" type="text">
-				            <span class="help-block"></span>
-				        </div>  
+			        <label class="col-md-3 control-label">Address</label>
+			        <div class="col-md-3">
+			            <input id="grad_school_address" class="form-control" name="grad_school_address" value="{{ old('grad_school_address') }}" type="text">
+			            <span class="help-block"></span>
+			        </div>  
 
-				        <label class="col-md-3 control-label">Contact Number</label>
-				        <div class="col-md-3">
-				            <input id="grad_school_contact" class="form-control" name="grad_school_contact" value="{{ old('grad_school_contact') }}" type="tel">
-				            <span class="help-block"></span>
-				        </div>
+			        <label class="col-md-3 control-label">Contact Number</label>
+			        <div class="col-md-3">
+			            <input id="grad_school_contact" class="form-control" name="grad_school_contact" value="{{ old('grad_school_contact') }}" type="tel">
+			            <span class="help-block"></span>
+			        </div>
 
-				        <label class="col-md-3 control-label">Years Attended</label>
-				        <div class="col-md-1">
-				            <input id="grad_school_year_from" class="form-control" name="grad_school_year_from" value="{{ old('grad_school_year_from') }}" type="text">
+			        <label class="col-md-3 control-label">Years Attended</label>
+			        <div class="col-md-1">
+			            <input id="grad_school_year_from" class="form-control" name="grad_school_year_from" value="{{ old('grad_school_year_from') }}" type="text">
 
-				            <span class="help-block"></span>
-				        </div> 
+			            <span class="help-block"></span>
+			        </div> 
 
-				        <div class="col-md-1">
-				        	
-				            <input id="grad_school_year_to" class="form-control" name="grad_school_year_to" value="{{ old('grad_school_year_to') }}" type="text">
-				            <span class="help-block"></span>
-				        </div> 
+			        <div class="col-md-1">
+			        	
+			            <input id="grad_school_year_to" class="form-control" name="grad_school_year_to" value="{{ old('grad_school_year_to') }}" type="text">
+			            <span class="help-block"></span>
+			        </div> 
 
-				        <label class="col-md-3 control-label">Course and Major Field of Study</label>
-				        <div class="col-md-3">
-				            <input id="grad_school_course" class="form-control" name="grad_school_course" value="{{ old('grad_school_course') }}" type="text">
-				            <span class="help-block"></span>
-				        </div>
+			        <label class="col-md-3 control-label">Course and Major Field of Study</label>
+			        <div class="col-md-3">
+			            <input id="grad_school_course" class="form-control" name="grad_school_course" value="{{ old('grad_school_course') }}" type="text">
+			            <span class="help-block"></span>
+			        </div>
 
-				        <label class="col-md-3 control-label">Honors or Awards Received</label>
-				        <div class="col-md-3">
-				            <input id="grad_school_honors" class="form-control" name="grad_school_honors" value="{{ old('grad_school_honors') }}" type="text">
-				            <span class="help-block"></span>
-				        </div>
+			        <label class="col-md-3 control-label">Honors or Awards Received</label>
+			        <div class="col-md-3">
+			            <input id="grad_school_honors" class="form-control" name="grad_school_honors" value="{{ old('grad_school_honors') }}" type="text">
+			            <span class="help-block"></span>
+			        </div>
 
-				        <label class="col-md-3 control-label">Year Graduated</label>
-				        <div class="col-md-3">
-				            <input id="grad_school_year_grad" class="form-control" name="grad_school_year_grad" value="{{ old('grad_school_year_grad') }}" type="text">
-				            <span class="help-block"></span>
-				        </div>
-				    </div>
+			        <label class="col-md-3 control-label">Year Graduated</label>
+			        <div class="col-md-3">
+			            <input id="grad_school_year_grad" class="form-control" name="grad_school_year_grad" value="{{ old('grad_school_year_grad') }}" type="text">
+			            <span class="help-block"></span>
+			        </div>
+			    </div> -->
 			</div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading"><h4>Employment Record</h4></div>
+			<div class="panel-body"> </div>
 		</div>
 	</form>
 </div>
