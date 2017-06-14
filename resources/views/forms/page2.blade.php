@@ -51,8 +51,13 @@
             </div>
         </div>
     </div>
+<!-- <<<<<<< HEAD -->
 <!-- </div>
 <div class="container"> -->
+<!-- ======= -->
+<!-- </div> -->
+<!-- <div class="container"> -->
+<!-- >>>>>>> 2118b9af3320e3e2d95efe21e08490a673e62bd2 -->
     <div class="panel panel-default">
         <div class="panel-heading"> 
             <h3> Military Experience </h3> 
@@ -174,8 +179,13 @@
             </div>
         </div>    
     </div>
-<!-- </div>
-<div class="container"> -->
+<!-- <<<<<<< HEAD
+</div>
+<div class="container">
+=======
+</div>
+<div class="container">
+>>>>>>> 2118b9af3320e3e2d95efe21e08490a673e62bd2 -->
     <div class="panel panel-default">
         <div class="panel-heading"> 
             <h3> Medical History </h3> 
@@ -349,7 +359,11 @@
         </div>
     </div>    
 <!-- </div>
+<<<<<<< HEAD
 <div class="container"> -->
+<!-- ======= -->
+<!-- s -->
+<!-- >>>>>>> 2118b9af3320e3e2d95efe21e08490a673e62bd2 -->
     <div class="panel panel-default">
         <div class="panel-heading"> 
             <h3> Family Information </h3> 

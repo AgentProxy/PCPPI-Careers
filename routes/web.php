@@ -16,5 +16,5 @@ Route::get('/', function () {
     return view('application');
 });
 
-Route::get('/forms/application','FormController@application');
-Route::get('/forms/page2','FormController@page2');
+Route::get('/forms/application/page1','FormController@application1');
+Route::get('/forms/application/page2','FormController@application2');
