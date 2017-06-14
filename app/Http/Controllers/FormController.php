@@ -7,11 +7,11 @@ use Illuminate\Http\Request;
 class FormController extends Controller
 {
     //
-    public function application(){
+    public function application1(){
     	return view('forms.application');
     }
 
-    public function page2(){
+    public function application2(){
     	return view('forms.page2');
     }
 }

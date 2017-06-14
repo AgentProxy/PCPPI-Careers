@@ -51,8 +51,8 @@
             </div>
         </div>
     </div>
-</div>
-<div class="container">
+<!-- </div> -->
+<!-- <div class="container"> -->
     <div class="panel panel-default">
         <div class="panel-heading"> 
             <h3> Military Experience </h3> 
@@ -174,8 +174,8 @@
             </div>
         </div>    
     </div>
-</div>
-<div class="container">
+<!-- </div> -->
+<!-- <div class="container"> -->
     <div class="panel panel-default">
         <div class="panel-heading"> 
             <h3> Medical History </h3> 
@@ -348,8 +348,8 @@
             </div>
         </div>
     </div>    
-</div>
-<div class="container">
+<!-- </div>
+ --><!-- s -->
     <div class="panel panel-default">
         <div class="panel-heading"> 
             <h3> Family Information </h3> 
