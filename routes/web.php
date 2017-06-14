@@ -13,6 +13,8 @@
 
 Route::get('/', function () {
     return view('welcome');
+    return view('application');
 });
 
 Route::get('/forms/application','FormController@application');
+Route::get('/forms/page2','FormController@page2');
