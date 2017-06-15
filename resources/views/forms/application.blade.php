@@ -419,7 +419,8 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td><input type="text"/ style="border: none; width: 100%;"></td>
+							<!-- <input type="text"/ style="border: none; width: 100%;"> -->
+								<td><textarea style="border: none; width: 100%;"></textarea></td>
 								<td><input type="text"/ style="border: none; width: 100%;"></td>
 								<td><input type="text"/ style="border: none; width: 100%;"></td>
 								<td><input type="text"/ style="border: none; width: 100%;"></td>
