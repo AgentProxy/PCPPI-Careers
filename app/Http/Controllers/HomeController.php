@@ -33,4 +33,8 @@ class HomeController extends Controller
     public function position(){
         return view('careers.position');
     }
+
+    public function history(){
+        return view('history.index');
+    }
 }
