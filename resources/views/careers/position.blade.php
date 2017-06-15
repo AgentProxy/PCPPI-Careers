@@ -28,6 +28,13 @@
                         </ul>
                    </div>
                    <div id="testimonies">
+                        <h4> Testimonies </h4>
+                        <div id="testimonies-1">
+                            <p>"lorem ipsum"</p>
+                            <div id="picture"><img></div>
+                            <p> Name </p>
+                            <p> Position </p>
+                        </div>
                         <!-- <h4> Job Requirement </h4>
                         <ul>
                             <li> lorem ipsum </li>
@@ -35,7 +42,7 @@
                             <li> lorem ipsum </li>
                         </ul> -->
                    </div>
-                   <a href="/forms/application/page1" class="btn btn-success" style="margin-left: 50%;"> Apply Now </a>
+                   <a href="/forms/application/page1" class="btn btn-success" style="margin-left: 50%; margin-right: 50%;"> Apply Now </a>
                 </div>
             </div>
         </div>
