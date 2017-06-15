@@ -27,7 +27,7 @@
         }
 
         body{
-            background-color:rgb(66, 244, 238);
+            /*background-color:rgb(66, 244, 238);*/
         }
     </style>
 
@@ -43,9 +43,12 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-inverse navbar-static-top ">
+        <div class="jumbotron" style=" background-image: url('images/pcppi-banner1.png'); background-repeat: no-repeat; background-size: 100%;">
+            
+        <!-- navbar-static-top -->
+        <nav class="navbar " style="position: relative; bottom: -50px; background: rgb(66, 238, 244); font-color: white; ">
             <div class="container">
-                <div class="navbar-header">
+                <div class="navbar-header" >
 
                     <!-- Collapsed Hamburger -->
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
@@ -63,18 +66,23 @@
                     </a>
                 </div>
 
-                <div class="collapse navbar-collapse" id="app-navbar-collapse">
+                <div class="collapse navbar-collapse" id="app-navbar-collapse" style="font-size: 20px;">
                     <!-- Left Side Of Navbar -->
-                    <ul class="nav navbar-nav">
-                        &nbsp;
+                    <ul class="nav navbar-nav" style="">
+                        <!-- <ul class="dropdown-menu" role="menu"> -->
+                            <li style="margin-left: 50px;"><a href="">Careers</a></li>
+                            <li style="margin-left: 50px;"><a href="">Vision-Mission</a></li>
+                            <li  style="margin-left: 50px;"><a href="">History</a></li>
+                             
+                        <!-- </ul> -->
                     </ul>
 
                     <!-- Right Side Of Navbar -->
                     <ul class="nav navbar-nav navbar-right">
                         <!-- Authentication Links -->
                         @if (Auth::guest())
-                            <li><a href="{{ route('login') }}">Login</a></li>
-                            <li><a href="{{ route('register') }}">Register</a></li>
+                            <li><a href="{{ route('login') }}" style="color: white; font-size: 20px;">Admin Login</a></li>
+                            <!-- <li><a href="{{ route('register') }}" style="color: white; font-size: 20px;">Register</a></li> -->
                         @else
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -105,6 +113,7 @@
                 </div>
             </div>
         </nav>
+        </div>
 
         @yield('content')
     </div>
