@@ -64,9 +64,9 @@
             }
         </style>
     </head>
-    @extends('layouts.app')
+    
     <body>
-
+    @extends('layouts.app')
        <!--  <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
