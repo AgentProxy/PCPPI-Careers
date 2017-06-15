@@ -1,4 +1,6 @@
-@extends('layouts.app')
+@extends('layouts.essentials')
+
+<a class="btn btn-primary" href="/careers" style="margin-left: 5%; margin-bottom: 3%; margin-top: 3%;"> Return to Careers </a>
 <div class="container">
 	<form id="application" class="form-horizontal" role="form" method="POST">
 		<div class="panel panel-default">
