@@ -43,5 +43,9 @@ class HomeController extends Controller
         return view('careers.index',compact('luzon_positions','visayas_positions','mindanao_positions'));
     }
 
-    
+
+    public function history(){
+        return view('history.index');
+    }
 }
+

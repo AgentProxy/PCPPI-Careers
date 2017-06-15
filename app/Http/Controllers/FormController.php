@@ -14,4 +14,8 @@ class FormController extends Controller
     public function application2(){
     	return view('forms.page2');
     }
+
+    public function compensation(){
+    	return view('forms.compensation');
+    }
 }
