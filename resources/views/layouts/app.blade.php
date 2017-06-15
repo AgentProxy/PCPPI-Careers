@@ -43,10 +43,10 @@
 </head>
 <body>
     <div id="app">
-        <div class="jumbotron" style=" background-image: url('images/pcppi-banner1.png'); background-repeat: no-repeat; background-size: 100%;">
+        <div class="jumbotron" style=" background-image: url('images/pcppi-banner1.png'); background-repeat: no-repeat; background-size: 100% 100%; height: 300px">
             
         <!-- navbar-static-top -->
-        <nav class="navbar " style="position: relative; bottom: -50px; background: rgb(66, 238, 244); font-color: white; ">
+        <nav class="navbar " style="position: relative; bottom: -230px; background: rgb(66, 238, 244); font-color: white; ">
             <div class="container">
                 <div class="navbar-header" >
 
