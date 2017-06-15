@@ -96,5 +96,6 @@
                 </div> -->
             </div>
         </div>
+        <footer>This site was created by AlabangBoys </footer>
     </body>
 </html>

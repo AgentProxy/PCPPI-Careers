@@ -1,7 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Position;
+use DB;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -27,10 +28,20 @@ class HomeController extends Controller
     }
 
     public function careers(){
-        return view('careers.index');
+        $luzon_positions = Position::all();
+        $luzon_positions = DB::table('positions')
+                            ->where('place_id', '=', '1')
+                            ->get();
+
+        $visayas_positions = DB::table('positions')
+                            ->where('place_id', '=', '2')
+                            ->get();
+        $mindanao_positions = DB::table('positions')
+                            ->where('place_id', '=', '3')
+                            ->get();
+
+        return view('careers.index',compact('luzon_positions','visayas_positions','mindanao_positions'));
     }
 
-    public function position(){
-        return view('careers.position');
-    }
+    
 }

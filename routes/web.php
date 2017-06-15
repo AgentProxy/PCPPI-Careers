@@ -19,7 +19,7 @@ Route::get('/', function () {
 Route::get('/forms/application/page1','FormController@application1');
 Route::get('/forms/application/page2','FormController@application2');
 Route::get('/careers','HomeController@careers');
-Route::get('/careers/position','HomeController@position');
+Route::get('/careers/position/{id}','CareerController@show');
 
 Auth::routes();
 

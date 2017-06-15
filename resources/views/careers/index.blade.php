@@ -11,17 +11,32 @@
                 <div class="panel-body">
             		<h3> Luzon </h3>
      				<ul>
-     					<li><a href="careers/position"> Sales Manager </a></li>
+     					 @forelse($luzon_positions as $luzon_position)
+                            <li><a href="careers/position/{{$luzon_position->id}}"> {{$luzon_position->position}}</a></li>
+                        @empty
+                            <p>No Vacancies</p> 
+                        @endforelse
+     					<!-- <li><a href="careers/position"> Sales Manager </a></li> -->
      				</ul>
 
      				<h3> Visayas </h3>
      				<ul>
-     					<li> Sales Manager </li>
+     					 @forelse($visayas_positions as $visayas_position)
+                            <li><a href="careers/position"> {{$visayas_position->position}}</a></li>
+                        @empty
+                            <p>No Vacancies</p> 
+                        @endforelse
+     					<!-- <li><a href="careers/position"> Sales Manager </a></li> -->
      				</ul>
 
      				<h3> Mindanao </h3>
      				<ul>
-     					<li> Sales Manager </li>
+     					 @forelse($mindanao_positions as $mindanao_position)
+                            <li><a href="careers/position"> {{$mindanao_position->position}}</a></li>
+                        @empty
+                            <p>No Vacancies</p> 
+                        @endforelse
+     					<!-- <li><a href="careers/position"> Sales Manager </a></li> -->
      				</ul>
                 </div>
             </div>
