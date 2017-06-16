@@ -74,6 +74,7 @@
                                 <li style="margin-left: 50px;"><a href="/careers">Careers</a></li>
                                 <li style="margin-left: 50px;"><a href="/#">Vision-Mission</a></li>
                                 <li  style="margin-left: 50px;"><a href="/history">History</a></li>
+                                <li  style="margin-left: 50px;"><a href="/admin">Edit</a></li>
                                  
                             <!-- </ul> -->
                         </ul>

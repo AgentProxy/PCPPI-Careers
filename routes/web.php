@@ -26,6 +26,9 @@ Route::get('/careers/position/{id}','CareerController@show');
 
 Route::get('/history','HomeController@history');
 
+Route::get('/admin','AdminController@index');
+Route::get('/admin_add','AdminController@add_position');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
