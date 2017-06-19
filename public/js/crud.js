@@ -1,5 +1,6 @@
 $(document).ready(function(){
-	$(document).on("click", ".requirements-btn", addReq);
+	$(document).on("click", "#requirements-btn", addReq);
+	$(document).on("click", "#accountability-btn", addAcc);
 });
 
 console.log("hello");
@@ -10,7 +11,7 @@ function addReq(){
 	i = document.getElementsByClassName('requirements');
 	$('#req-list-0').clone().attr('id','req-list-'+(i.length)).insertAfter('#req-list-' + (i.length- 1));
 	$('#requirements-1').attr('id','requirements-'+(i.length));
-	document.getElementById("req-list-" + (i.length-1)).style.display = "block";
+	document.getElementById("req-list-" + (i.length-1)).style.display = "list-item";
 	//document.getElementById("requirements-" + (i.length)).placeholder = "requirements " + i.length-1;
 	//node = document.getElementById("requirements-" + (i.length-1));
 	// console.log(node.lastChild.textContent);
@@ -18,8 +19,8 @@ function addReq(){
 }
 
 function addAcc(){
-	i = document.getElementsByClassName('requirements');
-	$('#req-list-0').clone().attr('id','req-list-'+(i.length)).insertAfter('#req-list-' + (i.length- 1));
-	$('#requirements-1').attr('id','requirements-'+(i.length));
-	document.getElementById("req-list-" + (i.length-1)).style.display = "block";
+	i = document.getElementsByClassName('accountabilities');
+	$('#acc-list-0').clone().attr('id','acc-list-'+(i.length)).insertAfter('#acc-list-' + (i.length- 1));
+	$('#accountability-1').attr('id','accountability-'+(i.length));
+	document.getElementById("acc-list-" + (i.length-1)).style.display = "list-item";
 }
