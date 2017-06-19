@@ -19,9 +19,11 @@
                     <hr />
                    <div id="accountabilities">
                         <h4> Accountabilities </h4>
+
+                              <li id="acc-list-0" style="display: none;"><input type="text" id="accountability-0" " name="requirements-0" class="accountabilities" /></li>
                             
-                                <li><input type="text" id="accountability-0" name="accountability-0" placeholder="accountability" /><button class ="btn btn-primary">+</button></li>
-                           
+                              <li><input type="text" id="accountability-1" name="accountability-1" placeholder="accountabilities" /></li>
+                              <button id="accountability-btn" class ="btn btn-primary">+</button>
                                 <!-- <p>None</p>  -->
                                 
                             
@@ -29,8 +31,9 @@
                    <div id="requirements">
                         <h4> Job Requirement </h4>
                         <ul>
-                            
-                                <li><input type="text" id="accountability-0" name="accountability-0" placeholder="accountability" /><button class ="btn btn-primary">+</button></li>
+                                <li id="req-list-0" style="display: none;"><input type="text" id="requirements-0" " name="requirements-0" placeholder="requirements" class="requirements" /></li>
+
+                                <li id="req-list-1"><input type="text" id="requirements-1" name="requirements-1" placeholder="requirements" class="requirements" /></li><button id="requirements-btn" class ="btn requirements-btn btn-primary">+</button>
                                 
                                 <!-- <p>None</p> --> 
                            
